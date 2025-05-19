@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { customerData } from "../data/CustomerData";
 import type { Customer } from "../types/Customer";
-import Dialog from "../components/dialog" // Import the Dialog component
+import Dialog from "../components/Dialog" 
 
 const CustomerPage = () => {
   const [customers, setCustomers] = useState<Customer[]>(customerData);
