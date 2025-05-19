@@ -1,7 +1,6 @@
- export interface Customer {
-  id : number,
-  name: string,
-  address: string
-  dateOfBirth :string
+export interface Customer {
+  id: string;
+  name: string;
+  address: string;
+  dateOfBirth: string;
 }
-
