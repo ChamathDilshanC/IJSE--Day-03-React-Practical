@@ -7,6 +7,8 @@ import ErrorPage from "./pages/ErrorPage";
 import LoginPage from "./pages/LoginPage";
 import Dashboard from "./pages/Dashbord";
 import CustomerPage from "./pages/CustomerPage";
+import StockPage from "./pages/StockPage";
+import OrderPage from "./pages/OrderPage";
 
 const router = createBrowserRouter([
   {
@@ -19,7 +21,9 @@ const router = createBrowserRouter([
       { path: "contact", element: <ContactPage /> },
       { path: "login", element: <LoginPage /> },
       { path: "dashboard", element: <Dashboard /> },
-      { path: "dashboard/CustomerPage", element: <CustomerPage /> }
+      { path: "dashboard/CustomerPage", element: <CustomerPage /> },
+      { path: "dashboard/StockPage", element: <StockPage /> },
+      { path: "dashboard/OrderPage", element: <OrderPage /> }
     ]
   }
 ]);
