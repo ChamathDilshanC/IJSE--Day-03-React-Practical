@@ -7,8 +7,8 @@ import ErrorPage from "./pages/ErrorPage";
 import LoginPage from "./pages/LoginPage";
 import Dashboard from "./pages/Dashbord";
 import CustomerPage from "./pages/CustomerPage";
-import StockPage from "./pages/StockPage";
-import OrderPage from "./pages/OrderPage";
+import StockPage from "./pages/StockPage.tsx";
+import OrderPage from "./pages/OrderPage.tsx";
 
 const router = createBrowserRouter([
   {
